@@ -1,0 +1,27 @@
+#errorhandler{
+    color: red;
+    font-size: 20px;
+}
+.edit_modal{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+.modal__close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}
+.jadval{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+}
+.jadval td,
+.jadval th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
